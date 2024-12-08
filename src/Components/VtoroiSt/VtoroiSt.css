@@ -1,0 +1,44 @@
+
+
+form{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 0 auto;
+
+width: 500px;
+
+border-radius: 15px;
+background-color: var(--color-bg);
+
+
+}
+input{
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    padding-left: 5px;
+    /* margin-bottom: 10px; */
+    outline: none;
+    
+}
+label{
+    margin: 5px;
+}
+button{
+    background: var(--bg-btn);
+    width: 170px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    border: 0px;
+    color: var(--col-text);
+}
+.MainVtst{
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+

@@ -1,0 +1,25 @@
+body.dark{
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+   --bg-btn: gray ;
+   --col-text: white;
+   
+}
+body.light{
+     background: linear-gradient(236deg, #525a8a, #d95b2a);
+     --bg-btn: #525a8a ;
+     --col-text: rgb(34, 30, 30);
+    }
+
+.Navig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+}
+.yo{
+    display: flex;
+ justify-content: end;
+ padding: 0 20px;
+}
+
